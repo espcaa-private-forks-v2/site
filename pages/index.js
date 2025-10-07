@@ -331,6 +331,43 @@ function Page({
                     Get up to $400 to make Hardware
                   </Text>
                 </Button>
+                <Button
+                  variant="ctaLg"
+                  as="a"
+                  href="https://hackclub.com/slack"
+                  mt={[3, 0, 0]}
+                  mr={3}
+                  sx={{
+                    transformOrigin: 'center',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    width: 'fit-content',
+                    backgroundColor: '#4A154B',
+                    backgroundImage:
+                      'linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px)',
+                    backgroundSize: '50px 50px',
+                    border: '2px solid #dbe4ee',
+                    color: '#dbe4ee',
+                    '&:hover': {
+                      transform: 'scale(1.05)',
+                      boxShadow: '0 0 20px rgba(219, 228, 238, 0.4)'
+                    }
+                  }}
+                >
+                  Join the slack!
+                  <Text
+                    as="span"
+                    sx={{
+                      fontSize: 0,
+                      opacity: 0.8,
+                      mt: 1,
+                      color: '#dbe4ee'
+                    }}
+                  >
+                    Connect with 40,000+ teen coders
+                  </Text>
+                </Button>
               </Box>
             </Heading>
           </Box>
